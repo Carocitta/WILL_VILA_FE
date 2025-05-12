@@ -1,0 +1,22 @@
+.custom-button {
+  font-family: 'Muna', sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  text-align: center;
+  width: auto;
+}
+
+.custom-button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.custom-button:focus {
+  outline: none;
+}
