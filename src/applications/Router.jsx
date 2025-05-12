@@ -5,12 +5,14 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Admin from "./pages/Admin";
 import Navbar from "./components/Navbar";
+import Header from "../components/Header/Header";
 
 function AppRouter() {
   return (
     <Router>
       <Navbar />
       <div className="container mt-4">
+        <Header/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
