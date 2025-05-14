@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Blackiron Demo';
+  src: url('/fonts/BlackironDemo.otf') format('opentype');
+}
+
+.contact-page {
+  padding: 60px 20px;
+  background-color: transparent;
+}
+
+.contact-title {
+  font-family: 'Blackiron Demo', serif;
+  font-size: 8rem;
+  color: #F7F1E3;
+}

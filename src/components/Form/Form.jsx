@@ -6,7 +6,6 @@ function Form() {
   return (
     <div className="form-container">
       <div className="form-box p-5">
-        <h2 className="form-title">Formulario de Contacto</h2>
         <form>
           <div className="mb-3">
             <label htmlFor="name" className="form-label">
