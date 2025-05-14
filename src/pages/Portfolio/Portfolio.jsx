@@ -1,6 +1,7 @@
 import React from "react";
 import VideoCard from "../../components/VideoCard/VideoCard";
 import "./Portfolio.css";
+import Paginator from "../../components/Paginator/Paginator";
 
 function PortfolioPage() {
   const videos = [
@@ -77,6 +78,9 @@ function PortfolioPage() {
         </div>
         <div className="col-md-6 mb-4">
           <VideoCard {...videos[6]} />
+        </div>
+        <div>
+          <Paginator />
         </div>
       </div>
     </div>
