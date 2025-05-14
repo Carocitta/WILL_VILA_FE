@@ -1,6 +1,6 @@
 import React from "react";
 import VideoCard from "../../components/VideoCard/VideoCard";
-import "./PortfolioPage.css";
+import "./Portfolio.css";
 
 function PortfolioPage() {
   const videos = [
