@@ -1,29 +1,29 @@
 .paginator {
-  background-color: rgba(255, 255, 255, 0); /* Fondo transparente */
-  border-radius: 12px; /* Bordes redondeados */
+  background-color: rgba(255, 255, 255, 0); 
+  border-radius: 12px; 
   padding: 10px 15px;
 }
 
 .page-link {
-  color: #69B7B2 !important; /* Color de las flechas y números */
+  color: #69B7B2 !important; 
 }
 
 .page-item.disabled .page-link {
-  color: #d6d6d6 !important; /* Color de texto deshabilitado */
+  color: #d6d6d6 !important; 
 }
 
 .page-item.active .page-link {
-  background-color: #69B7B2 !important; /* Color de fondo cuando está activo */
-  border-color: #69B7B2 !important; /* Color de borde cuando está activo */
+  background-color: #69B7B2 !important; 
+  border-color: #69B7B2 !important; 
 }
 
 .page-item .page-link {
-  border: none; /* Elimina el borde por defecto */
-  font-weight: bold; /* Aumenta el peso de la fuente */
-  padding: 8px 16px; /* Ajusta el espaciado */
+  border: none; 
+  font-weight: bold; 
+  padding: 8px 16px; 
 }
 
 .page-link:hover {
-  background-color: #e0f2f1 !important; /* Color al pasar el ratón */
+  background-color: #e0f2f1 !important;
   color: #69B7B2 !important;
 }
