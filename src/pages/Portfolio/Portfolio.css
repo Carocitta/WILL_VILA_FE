@@ -1,0 +1,7 @@
+.video-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.video-card:hover {
+  transform: scale(1.05);
+}
