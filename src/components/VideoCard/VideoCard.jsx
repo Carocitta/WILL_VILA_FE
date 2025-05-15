@@ -1,23 +1,22 @@
 import React from "react";
 import "./VideoCard.css";
 
-function VideoCard({ id, thumbnail, title, artist, videoUrl }) {
+function VideoCard({ title, artist, videoUrl, large = false }) {
   return (
-    <div className="card video-card" style={{ width: "22rem" }}>
-      <div className="video-wrapper ratio ratio-16x9">
+    <div className={`video-card ${large ? "video-card-large" : ""}`}>
+      <div className="video-wrapper">
         <iframe
           src={videoUrl}
           title={title}
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
       </div>
-      <div className="card-body">
-        <h5 className="card-title">{title}</h5>
-        <p className="card-text">Artista: {artist}</p>
-      </div>
+      <h5>{title}</h5>
+      <p>{artist}</p>
     </div>
   );
 }
 
-export default VideoCard; // Esto es necesario para una exportación por defecto
+export default VideoCard;

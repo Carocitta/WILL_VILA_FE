@@ -2,11 +2,11 @@
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   font-family: "Muna", sans-serif;
-  color: #F7F1E3;
-  padding: 2rem;
+  color: #f7f1e3;
+  padding: 1rem;
   box-sizing: border-box;
-  margin: 0;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
 }
 
 .footer-text {

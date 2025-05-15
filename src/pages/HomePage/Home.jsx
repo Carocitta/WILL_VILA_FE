@@ -16,7 +16,7 @@ function Home() {
           </div>
           <Button
             type="button"
-            className="custom-button btn-lg"
+            className="custom-button "
             text="Portfolio"
             to="/portfolio"
           />

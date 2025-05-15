@@ -1,0 +1,24 @@
+.video-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.video-card:hover {
+  transform: scale(1.05);
+}
+
+.video-card .video-wrapper iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.video-card-large .video-wrapper {
+  width: 1411px;
+  height: 456px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.video-card-large .video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+}

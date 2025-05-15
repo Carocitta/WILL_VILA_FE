@@ -9,32 +9,41 @@
 }
 
 .about-page {
-  background-image: url('/img/will_about.jpg');
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), #0e0e0e 90%), url('/img/will_about.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
-  height: 100vh;
-  width: 100vw;
-  color: #F7F1E3;
+  background-attachment: fixed;
+  padding: 60px 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-box {
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
-  max-width: 600px;
-  color: #F7F1E3;
   border-radius: 12px;
+  padding: 2rem;
+  max-width: 800px;
+  width: 100%;
+  color: #F7F1E3;
+  text-align: center;
 }
 
 .about-title {
   font-family: 'Blackiron Demo', serif;
-  font-size: 3rem;
+  font-size: 4rem;
+  margin-bottom: 2rem;
   color: #F7F1E3;
 }
 
 .about-text {
   font-family: 'Muna', sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.6;
   color: #F7F1E3;
   text-align: justify;

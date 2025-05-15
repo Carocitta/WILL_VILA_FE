@@ -8,7 +8,7 @@ import Contact from "./pages/Conctact/Contact";
 
 function App() {
   return (
-    <div className="container mt-4">
+    <div className="container-fuid p-0" >
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

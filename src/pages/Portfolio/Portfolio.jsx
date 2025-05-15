@@ -3,9 +3,10 @@ import VideoCard from "../../components/VideoCard/VideoCard";
 import "./Portfolio.css";
 import Paginator from "../../components/Paginator/Paginator";
 
-function PortfolioPage() {
+function Portfolio() {
   const videos = [
     {
+      // INFORMACION QU ETRAEMOS DE BACK
       id: 1,
       title: "Video 1",
       artist: "Artist 1",
@@ -52,8 +53,9 @@ function PortfolioPage() {
   return (
     <div className="container mt-4">
       <div className="row">
-        <div className="col-12 mb-4">
-          <VideoCard {...videos[0]} />
+        {/* AÑADIR MAP */}
+        <div className="col-12 mb-4">     
+          <VideoCard {...videos[0]} large />
         </div>
       </div>
       <div className="row">
@@ -78,7 +80,7 @@ function PortfolioPage() {
         </div>
         <div className="col-md-6 mb-4">
           <VideoCard {...videos[6]} />
-        </div>
+        </div>    
         <div>
           <Paginator />
         </div>
@@ -87,4 +89,4 @@ function PortfolioPage() {
   );
 }
 
-export default PortfolioPage;
+export default Portfolio;

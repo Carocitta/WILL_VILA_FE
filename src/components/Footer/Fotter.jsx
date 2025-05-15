@@ -1,10 +1,9 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./Fotter.css";
 
 function Footer() {
   return (
-    <footer className="footer py-5">
-      <div className="container">
+    <footer className="footer">
+      <div className="container-fluid">
         <div className="row">
           <div className="col-12 col-md-8">
             <p className="footer-text">

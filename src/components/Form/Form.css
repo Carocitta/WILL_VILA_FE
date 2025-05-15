@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .form-box {
@@ -40,7 +39,7 @@
   border-radius: 8px;
   cursor: pointer;
   width: 35%;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   display: block;
   margin: 0 auto;
 }
