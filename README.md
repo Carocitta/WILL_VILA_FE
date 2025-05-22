@@ -4,7 +4,9 @@
 
 ## 🎯 Objetivo
 
-Desarrollar una página web profesional para **Will Vila**, filmmaker, donde pueda exhibir sus trabajos audiovisuales, compartir su información de contacto y consolidar su presencia en línea.
+**Will Vila Portfolio** es una aplicación web desarrollada como proyecto final del curso de programación. Su objetivo es brindar a Will Vila, un filmmaker independiente, una plataforma profesional donde mostrar sus proyectos audiovisuales y facilitar el contacto con potenciales clientes.
+
+La aplicación está construida en React para el frontend y Spring Boot para el backend (en proceso), y está pensada bajo una arquitectura cliente-servidor. El diseño fue realizado en Figma, con enfoque responsivo y centrado en la experiencia visual del usuario.
 
 ## 👨‍💻 Sobre Will Vila
 
