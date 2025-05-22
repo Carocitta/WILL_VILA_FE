@@ -1,6 +1,6 @@
 .paginator {
-  background-color: rgba(255, 255, 255, 0); 
-  border-radius: 12px; 
+  background-color: transparent;
+  border-radius: 12px;
   padding: 10px 15px;
 }
 
@@ -15,26 +15,31 @@
   }
 }
 
-.page-link {
-  color: #69B7B2 !important; 
-}
-
-.page-item.disabled .page-link {
-  color: #d6d6d6 !important; 
-}
-
-.page-item.active .page-link {
-  background-color: #69B7B2 !important; 
-  border-color: #69B7B2 !important; 
-}
-
 .page-item .page-link {
-  border: none; 
-  font-weight: bold; 
-  padding: 8px 16px; 
+  border: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  background-color: transparent;
+  color: #F7F1E3 !important;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
+
 
 .page-link:hover {
-  background-color: #e0f2f1 !important;
-  color: #69B7B2 !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: #F7F1E3 !important;
+}
+
+
+.page-item.active .page-link {
+  background-color: #F7F1E3 !important;
+  color: #0e0e0e !important;
+  border-radius: 8px;
+}
+
+
+.page-item.disabled .page-link {
+  color: #999 !important;
+  opacity: 0.6;
+  cursor: not-allowed;
 }
