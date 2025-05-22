@@ -1,0 +1,74 @@
+.admin-container {
+  background-color: rgba(255, 255, 255, 0.1); 
+  padding: 2rem;
+  border-radius: 12px;
+  color: #F7F1E3;
+  min-height: 60vh;
+}
+
+.admin-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.admin-sidebar button {
+  background-color: transparent;
+  border: none;
+  color: #F7F1E3;
+  font-weight: bold;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: left;
+}
+
+.admin-sidebar button.selected {
+  background-color: #194B4C;
+}
+
+.admin-sidebar button:hover:not(.selected) {
+  background-color: rgba(25, 75, 76, 0.5);
+}
+
+.admin-form input,
+.admin-form textarea {
+  background-color: white !important;
+  color: #000 !important;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+}
+
+.admin-form label {
+  color: #F7F1E3;
+  font-weight: 600;
+}
+
+
+.btn-warning, .btn-danger {
+  color: #F7F1E3;
+  font-weight: 600;
+}
+
+.table thead th {
+  color: #F7F1E3;
+  border-bottom: 2px solid #194B4C;
+}
+
+.table tbody tr td {
+  color: #F7F1E3;
+}
+
+@media (max-width: 768px) {
+  .admin-wrapper {
+    flex-direction: column;
+  }
+
+  .admin-sidebar {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+  }
+}
