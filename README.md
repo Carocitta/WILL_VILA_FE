@@ -1,12 +1,71 @@
-# React + Vite
+# 🎬 Portafolio de Will Vila
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Home screenshot](./assets/home.png)
 
-Currently, two official plugins are available:
+## 🎯 Objetivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Desarrollar una página web profesional para **Will Vila**, filmmaker, donde pueda exhibir sus trabajos audiovisuales, compartir su información de contacto y consolidar su presencia en línea.
 
-## Expanding the ESLint configuration
+## 👨‍💻 Sobre Will Vila
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![About screenshot](./assets/about.png)
+
+Soy Will Vila, filmmaker apasionado por la música extrema y especializado en la creación de videoclips para bandas de metal, hardcore, punk rock y todos sus matices. Nací y crecí en Sant Just Desvern (Barcelona) y mi vínculo con la música va mucho más allá de la cámara: también soy baterista.
+
+Actualmente toco en Bellvitge, y anteriormente formé parte de Clouds Over Normandy, Boïra y Ultrablu. Desde siempre he sentido una conexión profunda con el sonido, la energía y la identidad visual que define a cada banda. En 2023 comencé mi trayectoria como director y realizador audiovisual, uniendo mi experiencia musical con la cinematografía.
+
+## 🚀 Tecnologías utilizadas
+
+### Frontend
+- React.js
+- Vite
+- CSS Modules
+- Boostrap
+- Atomic Design
+- Figma (prototipado)
+
+### Backend (en desarrollo)
+- Spring Boot
+- PostgreSQL
+
+### Herramientas
+- Git & GitHub
+- Trello (metodología ágil)
+- Canva (presentación final)
+- Figma (diseño UX/UI)
+
+## 📂 Instalación
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/tuusuario/nombre-repo.git
+   ```
+2. Accede al directorio del proyecto:
+   ```bash
+   cd nombre-repo
+   ```
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+4. Ejecuta el entorno de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+## 📌 Estado del proyecto
+
+🚧 En desarrollo – Actualmente se está trabajando en la integración del backend y las pruebas de funcionalidades.
+
+## 📸 Demo
+
+*Próximamente* – El sitio estará disponible en línea una vez completada la integración final.
+
+## 📫 Contacto
+
+Para más información o propuestas de colaboración:
+
+- 📧 Email: carocitta@gmail.com
+- 🌐 Linkedin: https://www.linkedin.com/in/carolina-mas/
+
+
