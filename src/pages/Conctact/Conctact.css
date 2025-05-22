@@ -11,7 +11,9 @@
 
 .contact-title {
   font-family: 'Blackiron Demo', serif;
-  font-size: 8rem;
+  font-size: clamp(3rem, 8vw, 8rem); 
   color: #F7F1E3;
   text-align: center;
+  margin-bottom: 2rem;
+  user-select: none;
 }

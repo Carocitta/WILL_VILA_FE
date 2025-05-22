@@ -20,25 +20,19 @@ function About() {
             <div className="about-box p-5 w-100 d-flex flex-column justify-content-center">
               <h1 className="about-title mb-4">WILL VILA</h1>
               <p className="about-text">
-                Soy Will Villa, filmmaker apasionado por la música extrema y
-                especializado en la creación de videoclips para bandas de metal,
-                hardcore, punk rock y todos sus matices. Nací y crecí en Sant
-                Just Desvern (Barcelona) y mi vínculo con la música va mucho más
-                allá de la cámara: también soy batería.
+                De la escena para la escena, con la idea de unir la pasión por
+                la música y la filmografía.
                 <br />
                 <br />
-                Actualmente toco en Bellvitge, y anteriormente formé parte de
-                Clouds Over Normandy, Boïra y Ultrablue. Desde siempre he
-                sentido una conexión profunda con el sonido, la energía y la
-                identidad visual que define a cada banda. En 2023 comencé mi
-                trayectoria como director y realizador audiovisual, uniendo mi
-                formación académica con mi experiencia sobre los escenarios para
-                crear vídeos auténticos, potentes y fieles a la esencia de cada
-                proyecto musical.
-                <br />
-                <br />
-                Mi objetivo es ayudarte a contar tu historia con imágenes que
-                suenen tan fuerte como tu música.
+                Tras toda una vida relacionado con la música a través de
+                las diferentes bandas en las que estuve como batería,
+                consumiendo proyectos como Audiotree o los directos de Sunny
+                Singh en hate5six, la idea de crear contenido audiovisual de
+                calidad para las bandas emergentes del país nació de esa pasión
+                por el arte audiovisual y el deseo de ver a mis grupos favoritos
+                crecer en una industria que cada vez ofrece menos
+                oportunidades.
+                
               </p>
             </div>
           </div>

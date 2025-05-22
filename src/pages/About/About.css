@@ -1,13 +1,3 @@
-@font-face {
-  font-family: "Blackiron Demo";
-  src: url("/fonts/BlackironDemo.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "Muna";
-  src: url("/fonts/Muna-Regular.ttf") format("truetype");
-}
-
 .about-page {
   min-height: 100vh;
   width: 100%;
@@ -29,11 +19,10 @@
   backdrop-filter: blur(10px);
   border-radius: 12px;
   padding: 2rem;
-  max-width: 800px;
-  width: 100%;
+  width: 120%;
+  max-width: 700px;
   color: #f7f1e3;
   text-align: center;
-
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -42,7 +31,7 @@
 
 .about-title {
   font-family: "Blackiron Demo", serif;
-  font-size: 4rem;
+  font-size: 5rem;
   margin-bottom: 2rem;
   color: #f7f1e3;
 }
@@ -57,12 +46,14 @@
 
 .about-image {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center;
+  height: auto;
+  max-height: 650px;
+  object-fit: cover;
+  border-radius: 12px;
   max-width: 100%;
-  max-height: 100%;
+  margin: auto;
 }
+
 
 
 .carousel-strip {
@@ -78,12 +69,14 @@
 
 .carousel-strip-track {
   display: flex;
-  width: calc(300px * 6); 
+  width: calc(var(--slide-width) * var(--slide-count));
   animation: scroll-left 20s linear infinite;
+  --slide-width: 300px;
+  --slide-count: 8;
 }
 
 .carousel-strip-image {
-  width: 300px;
+  width: var(--slide-width);
   height: 180px;
   object-fit: cover;
   margin-right: 10px;
@@ -96,25 +89,37 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-300px * 3 - 30px));
+    transform: translateX(calc(-1 * var(--slide-width) * 4 - 40px));
   }
 }
 
+/* Responsive */
 @media (max-width: 768px) {
-  .carousel-strip-image {
-    width: 200px;
-    height: 120px;
+  .about-title {
+    font-size: 3rem;
   }
+
+  .about-text {
+    font-size: 1.2rem;
+  }
+
   .carousel-strip-track {
-    width: calc(200px * 6);
+    --slide-width: 200px;
+    --slide-count: 8;
     animation: scroll-left 15s linear infinite;
   }
+
+  .carousel-strip-image {
+    width: var(--slide-width);
+    height: 120px;
+  }
+
   @keyframes scroll-left {
     0% {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(calc(-200px * 3 - 20px));
+      transform: translateX(calc(-1 * var(--slide-width) * 4 - 30px));
     }
   }
 }

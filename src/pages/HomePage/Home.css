@@ -20,7 +20,7 @@
 .home-title {
   position: absolute;
   font-family: 'Blackiron Demo', serif;
-  font-size: 9rem;
+  font-size: clamp(10rem, 8vw, 8rem); 
   color: #F7F1E3;
   z-index: 2;
 }

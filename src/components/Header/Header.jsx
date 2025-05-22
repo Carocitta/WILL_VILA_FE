@@ -6,7 +6,7 @@ function Header() {
     <header className="header-nav">
       <div className="container d-flex justify-content-center align-items-center h-100">
         <nav>
-          <ul className="nav-list d-flex m-0 p-0">
+          <ul className="nav-list d-flex flex-wrap justify-content-center m-0 p-0">
             <li>
               <NavLink
                 to="/"

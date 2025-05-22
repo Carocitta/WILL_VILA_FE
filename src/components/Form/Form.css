@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding: 1rem; 
 }
 
 .form-box {
@@ -10,6 +11,7 @@
   border-radius: 12px;
   width: 100%;
   max-width: 600px;
+  box-sizing: border-box;
 }
 
 .form-title {
@@ -41,14 +43,21 @@
   width: 35%;
   font-size: 1.6rem;
   display: block;
-  margin: 0 auto;
+  margin: 1rem auto 0;
+  transition: background-color 0.3s ease;
 }
 
 .custom-button:hover {
   background-color: #1a5859;
-  transition: background-color 0.3s ease;
 }
 
 .custom-button:focus {
   outline: none;
+}
+
+@media (max-width: 576px) {
+  .custom-button {
+    width: 100%;
+    font-size: 1.4rem;
+  }
 }

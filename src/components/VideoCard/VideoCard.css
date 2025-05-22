@@ -1,24 +1,44 @@
 .video-card {
   transition: transform 0.3s ease-in-out;
+  max-width: 100%;
+  border-radius: 12px; 
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #f7f1e3;
+  backdrop-filter: blur(6px);
+  margin: auto;
 }
 
 .video-card:hover {
   transform: scale(1.05);
 }
 
-.video-card .video-wrapper iframe {
+.video-wrapper iframe {
   width: 100%;
   height: 400px;
+  border-radius: 12px;
+  border: none;
 }
 
 .video-card-large .video-wrapper {
-  width: 1411px;
-  height: 456px;
+  width: 100%;  
   max-width: 100%;
+  height: 456px;
   margin: 0 auto;
 }
 
 .video-card-large .video-wrapper iframe {
   width: 100%;
   height: 100%;
+}
+
+
+@media (max-width: 768px) {
+  .video-wrapper iframe {
+    height: 250px;
+  }
+
+  .video-card-large .video-wrapper {
+    height: 250px;
+  }
 }

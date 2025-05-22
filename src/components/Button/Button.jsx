@@ -14,7 +14,7 @@ function Button({ text, to, type = "button", className = "" }) {
   return (
     <button
       type={type}
-      className={`custom-button ${className}`}
+      className={`custom-button ${className} d-inline-block text-center px-3 py-2`}
       onClick={handleClick}
     >
       {text}
