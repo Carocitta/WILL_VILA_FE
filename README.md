@@ -1,6 +1,6 @@
 # 🎬 Portafolio de Will Vila
 
-![Home screenshot](./assets/home.png)
+![Home screenshot](./public/img/home.png)
 
 ## 🎯 Objetivo
 
@@ -8,7 +8,7 @@ Desarrollar una página web profesional para **Will Vila**, filmmaker, donde pue
 
 ## 👨‍💻 Sobre Will Vila
 
-![About screenshot](./assets/about.png)
+![About screenshot](./public/img/about.png)
 
 Soy Will Vila, filmmaker apasionado por la música extrema y especializado en la creación de videoclips para bandas de metal, hardcore, punk rock y todos sus matices. Nací y crecí en Sant Just Desvern (Barcelona) y mi vínculo con la música va mucho más allá de la cámara: también soy baterista.
 
