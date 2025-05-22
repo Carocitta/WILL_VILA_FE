@@ -5,3 +5,27 @@
 .video-card:hover {
   transform: scale(1.05);
 }
+.custom-button {
+  font-family: 'Muna', sans-serif;
+  font-size: 1.4rem;
+  color: #F7F1E3;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  text-align: center;
+  width: 20%;
+  margin-top: 2rem;
+}
+
+.custom-button:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.custom-button:disabled {
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: not-allowed;
+}

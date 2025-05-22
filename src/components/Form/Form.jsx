@@ -20,7 +20,7 @@ function Form() {
           </div>
           <div className="mb-3">
             <label htmlFor="email" className="form-label">
-              Correo Electrónico: 
+              Correo Electrónico:
             </label>
             <input
               type="email"
@@ -48,7 +48,7 @@ function Form() {
               className="form-control"
               id="message"
               rows="4"
-              placeholder="Escribe tu mensaje"
+              placeholder="Escribe tu mensaje o escribeme guillemvilanebot@gmail.com"
             ></textarea>
           </div>
           <Button type="submit" className="custom-button" text="Enviar" />
