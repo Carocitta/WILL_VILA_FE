@@ -19,9 +19,9 @@
 
 .home-title {
   position: absolute;
-  font-family: 'Blackiron Demo', serif;
-  font-size: clamp(10rem, 8vw, 8rem); 
-  color: #F7F1E3;
+  font-family: "Blackiron Demo", serif;
+  font-size: 9rem;
+  color: #f7f1e3;
   z-index: 2;
 }
 
@@ -43,10 +43,10 @@
 }
 
 .custom-button {
-  font-family: 'Muna', sans-serif;
+  font-family: "Muna", sans-serif;
   font-size: 1.4rem;
-  color: #F7F1E3;
-  background-color: rgba(255, 255, 255, 0.9); 
+  color: #f7f1e3;
+  background-color: rgba(255, 255, 255, 0.9);
   border: none;
   padding: 8px 16px;
   border-radius: 8px;
@@ -58,12 +58,23 @@
   margin-top: 2rem;
 }
 
-
-
 .custom-button:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
 .custom-button:focus {
   outline: none;
+}
+
+@media (max-width: 576px) {
+  .custom-button {
+    width: 80%;
+    font-size: 1.2rem;
+    padding: 10px 12px;
+  }
+
+  .home-title {
+    font-size: 4rem;
+    position: absolute;
+  }
 }
