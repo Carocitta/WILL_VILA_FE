@@ -25,7 +25,7 @@ function Portfolio() {
     },
     {
       id: 4,
-      title: "Sahrijai (Villabona) 4",
+      title: "Sahrijai (Villabona)",
       artist: "Calathea",
       videoUrl: "https://www.youtube.com/embed/ghk63rdo8qw?si=sAIn1JB5At2o8WEz",
     },
@@ -73,7 +73,7 @@ function Portfolio() {
     },
     {
       id: 12,
-      title: "Nothing But Numbers live @ Butirrock (Sarrià de Ter)",
+      title: "Nothing But Numbers live - Butirrock (Sarrià de Ter)",
       artist: "Weak",
       videoUrl: "https://www.youtube.com/embed/9PfOiSecAA0?si=_qaq2k-MXlI37uhK",
     },
